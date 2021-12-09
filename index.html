@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testLab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+<!--Header-->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">
+                <img src="images/header/logo.svg" alt="logo">
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#" class="nav__link" data-scroll="#features">Как это работает</a>
+                <a href="#" class="nav__link" data-scroll="#block">3-й блок</a>
+                <a href="#" class="nav__link" data-scroll="#qa">Вопросы и ответы</a>
+                <a href="#" class="nav__link" data-scroll="#form">Форма</a>
+            </nav>
+
+            <button class="burger" id="navToggle" type="button">
+                <span class="burger__item"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!--Intro-->
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">
+                Говорят, никогда не поздно сменить профессию
+            </h1>
+            <h2 class="intro__subtitle">
+                Сделай круто тестовое задание и у тебя получится
+            </h2>
+            <a class="btn btn--white" href="#">Проще простого!</a>
+        </div>
+    </div>
+</div>
+
+<!--FEATURES-->
+<div class="container" id="features">
+    <div class="features">
+        <div class="features__header">
+            <h2 class="header__title">Как это работает</h2>
+        </div>
+        <div class="features__item">
+            <img class="features__icon" src="images/features/1.svg" alt="">
+            <h4 class="features__title">
+                Прочитай задание внимательно
+            </h4>
+            <div class="features__text">
+                Думаю у тебя не займет это больше двух-трех минут
+            </div>
+        </div>
+        <div class="features__item">
+            <img class="features__icon" src="images/features/2.svg" alt="">
+            <h4 class="features__title">
+                Изучи весь макет заранее
+            </h4>
+            <div class="features__text">
+                Подумай как это будет работать на разных разрешениях и при скролле
+            </div>
+        </div>
+        <div class="features__item">
+            <img class="features__icon" src="images/features/3.svg" alt="">
+            <h4 class="features__title">
+                Сделай хорошо
+            </h4>
+            <div class="features__text">
+                Чтобы мы могли тебе доверить подобные задачи в будущем
+            </div>
+        </div>
+        <div class="features__item">
+            <img class="features__icon" src="images/features/4.svg" alt="">
+            <h4 class="features__title">
+                Получи предложение
+            </h4>
+            <div class="features__text">
+                Ну тут все просто, не я придумал правила, но думаю так и будет)))
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--BLOCK-->
+<div class="container" id="block">
+    <div class="block">
+        <div class="block__item block__image-none">
+            <img src="images/block/man.png" alt="">
+        </div>
+        <div class="block__item">
+            <div class="block__main">
+                <h3 class="block__title">Круто, ты дошел до третьего блока</h3>
+                <p class="block__text">
+                    63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы свыше 15 000 ₽.
+                    <br>
+                    <br>
+                    Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах.
+                </p>
+            </div>
+        </div>
+        <div class="block__item">
+            <div class="block__image">
+                <img class="block__image-front" src="images/block/2_1.png" alt="">
+                <img class="block__image-back" src="images/block/2_2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--REVIEWS-->
+<div class="section">
+    <div class="container">
+        <div class="reviews__header">
+            <h2 class="reviews__title">Отзывы</h2>
+        </div>
+        <div class="slider">
+            <div class="slider__item">
+                <div class="slider__content">
+                    <div class="slider__header">
+                        <img class="slider__avatar" src="images/reviews/1.svg" alt="">
+                        <div class="slider__info">
+                            <h6 class="user__name">Константинов Михаил Павлович</h6>
+                            <p class="user__country">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                    <div class="slider__text">
+                        <p class="slider__text-item">
+                            Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__content">
+                    <div class="slider__header">
+                        <img class="slider__avatar" src="images/reviews/2.png" alt="">
+                        <div class="slider__info">
+                            <h6 class="user__name">Иван Иванов</h6>
+                            <p class="user__country">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                    <div class="slider__text">
+                        <p class="slider__text-item">
+                            Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира призваны к ответу.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__content">
+                    <div class="slider__header">
+                        <img class="slider__avatar" src="images/reviews/3.png" alt="">
+                        <div class="slider__info">
+                            <h6 class="user__name">Артем Корнилов</h6>
+                            <p class="user__country">Самара</p>
+                        </div>
+                    </div>
+                    <div class="slider__text">
+                        <p class="slider__text-item">
+                            Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__content">
+                    <div class="slider__header">
+                        <img class="slider__avatar" src="images/reviews/1.svg" alt="">
+                        <div class="slider__info">
+                            <h6 class="user__name">Константинов Михаил Павлович</h6>
+                            <p class="user__country">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                    <div class="slider__text">
+                        <p class="slider__text-item">
+                            Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__content">
+                    <div class="slider__header">
+                        <img class="slider__avatar" src="images/reviews/2.png" alt="">
+                        <div class="slider__info">
+                            <h6 class="user__name">Иван Иванов</h6>
+                            <p class="user__country">Санкт-Петербург</p>
+                        </div>
+                    </div>
+                    <div class="slider__text">
+                        <p class="slider__text-item">
+                            Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира призваны к ответу.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--QA-->
+<div class="container" id="qa">
+    <div class="qa">
+        <h3 class="block__title">Вопросы и ответы</h3>
+        <div class="accordion">
+            <div class="accordion__item" data-collapse="#wedo_1">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        Подтверждено: сознание наших соотечественников не замутнено пропагандой?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_1">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion__item" data-collapse="#wedo_2">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        Прототип нового сервиса - это как трубный призыв?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_2">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion__item active" data-collapse="#wedo_3">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        Частокол на границе продолжает удивлять?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_3">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion__item" data-collapse="#wedo_4">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        Очевидцы сообщают, что слышали грохот грома градущих изменений?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_4">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion__item" data-collapse="#wedo_5">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        И по сей день в центральных регионах звучит перекатами печальный плач оппозиции?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_5">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion__item" data-collapse="#wedo_6">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        Нынче никто не может себе позволить инициировать треск разлетающихся скреп?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_6">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion__item" data-collapse="#wedo_7">
+                <div class="accordion__header">
+                    <div class="accordion__title">
+                        Высококачественный прототип будущего проекта обнадёживает?
+                    </div>
+                </div>
+                <div class="accordion__content" id="wedo_7">
+                    <p>
+                        В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--TEXT-->
+<div class="section">
+    <div class="container">
+        <div class="text">
+            <div class="text__item">
+                <div class="text__title">
+                    Опрошенных пользовались микрокредитами
+                </div>
+                <p class="text__content">
+                    Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах
+                </p>
+            </div>
+            <div class="text__item">
+                <div class="text__title">
+                    Опрошенных пользовались микрокредитами
+                </div>
+                <p class="text__content">
+                    Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах
+                </p>
+            </div>
+            <div class="text__item">
+                <div class="text__title">
+                    Опрошенных пользовались микрокредитами
+                </div>
+                <p class="text__content">
+                    Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах
+                </p>
+            </div>
+            <div class="text__item">
+                <div class="text__title">
+                    Опрошенных пользовались микрокредитами
+                </div>
+                <p class="text__content">
+                    Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FORM-->
+<div class="container" id="form">
+    <div class="contact">
+        <h3 class="block__title">Отправь форму</h3>
+        <form action="/" class="form">
+            <div class="inputs">
+                <input class="input" type="text" placeholder="Имя">
+                <input class="input" type="number" placeholder="Телефон">
+            </div>
+            <div class="inputs inputs__jcsb">
+                <div class="checkbox__item">
+                    <div class="checkbox__checkbox">
+                        <input class="checkbox" type="checkbox" name="checkbox" id="checkbox">
+                        <label class="label" for="checkbox">Согласен, отказываюсь</label>
+                    </div>
+                </div>
+                <input class="button" type="submit" value="Отправить">
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--FOOTER-->
+<footer class="footer">
+<div class="copyright">
+    © 2021 Лаборатория интернет
+</div>
+</footer>
+
+</div>
+<!--SCRIPTS-->
+
+<!--JQUERY-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--SLIDER-->
+<script src="js/slick.min.js"></script>
+<!--mainJS-->
+<script src="js/script.js"></script>
+</body>
+</html>
